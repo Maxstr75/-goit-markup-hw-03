@@ -33,7 +33,7 @@ body {
 }
 
 /*-----------------HEADER------------*/
-.header {
+.page-header {
   background-color: #ececec;
 }
 
@@ -98,13 +98,15 @@ body {
 /* --------Что предлагаем------ */
 .hero {
   background: #2f303a;
+  text-align: center;
 }
 
 .hero-title {
+  margin-top: 32px;
+  margin-bottom: 35px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
@@ -114,15 +116,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
+  display: inline-block;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-btn-color);
   background-color: #2196f3;
   cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-btn-item:hover,
