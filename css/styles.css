@@ -308,6 +308,13 @@ button {
 }
 
 /*---------------Портфолио-------*/
+/*---------------Шапка---------*/
+.header-container-portfolio {
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  align-items: center;
+  margin-bottom: 94px;
+}
 /*--------Проекты-------*/
 
 .card-text {
