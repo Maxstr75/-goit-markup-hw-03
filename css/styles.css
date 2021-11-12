@@ -8,6 +8,14 @@
   --main-btn-color: #ffffff;
   --header-text-color: #212121;
 }
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .list {
   list-style: none;
 }
