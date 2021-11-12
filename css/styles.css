@@ -9,6 +9,25 @@
   --header-text-color: #212121;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -36,13 +55,37 @@
   margin: -1px;
 }
 
-body {
+.header-logo body {
   font-family: "Roboto", sans-serif;
 }
 
 /*-----------------HEADER------------*/
 .page-header {
   background-color: #ffffff;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.link-box {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-logo-web {
@@ -63,6 +106,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+  margin-right: 93px;
 }
 
 .header-link {
@@ -156,7 +200,7 @@ body {
 
 /*-----Наши особенности-------*/
 .peculiarities-title {
-  font-weight: 700d;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -220,7 +264,7 @@ body {
 .footer-logo-web {
   font-family: Raleway;
   font-style: normal;
-  font-weight: 700old;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
