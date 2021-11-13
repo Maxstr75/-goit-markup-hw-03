@@ -28,6 +28,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -207,7 +211,17 @@ button {
 }
 
 /*-----Наши особенности-------*/
-.peculiarities-title {
+
+.peculiarities-container {
+  margin-top: 94px;
+}
+
+.peculiarities-list {
+  display: flex;
+}
+
+.peculiarities-title:not(:last-child) {
+  margin-right: 30px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
@@ -222,15 +236,21 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+
 }
 
 /*--------------Чем мы занимаемся------*/
 .work-list {
   display: flex;
-  align-items: center;
+  }
+
+.work-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .work-title {
+  margin-top: 94px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -242,6 +262,10 @@ button {
 /*-------------Наша команда---------*/
 .team {
   background-color: #f5f4fa;
+}
+
+.team-container {
+  margin-top: 94px;
 }
 
 .team-title {
