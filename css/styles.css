@@ -160,7 +160,9 @@ body {
 }
 
 .hero-container {
-  padding: 200px 0 280px 452px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  width: 696px;
 }
 
 .hero-title {
@@ -172,7 +174,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
-  width: 696px;
+  
 }
 
 .hero-btn-item {
