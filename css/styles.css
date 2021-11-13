@@ -231,13 +231,13 @@ img {
   color: var(--second-title-color);
 }
 
-.peculiarities-after-title {
+.peculiarities-after-title { 
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-
+  width: 270px;
 }
 
 /*--------------Чем мы занимаемся------*/
