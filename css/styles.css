@@ -203,6 +203,7 @@ img {
   letter-spacing: 0.06em;
   color: var(--header-text-color);
   cursor: pointer;
+  border-style: none;
 }
 
 .hero-btn:hover,
@@ -359,6 +360,11 @@ img {
   display: flex;
   align-items: center;
 }
+
+.features-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 /*--------Проекты-------*/
 
 .card-text {
