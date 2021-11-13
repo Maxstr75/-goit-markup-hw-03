@@ -273,6 +273,11 @@ img {
   margin-top: 94px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -280,7 +285,20 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  
 }
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+
+.team-item {
+  display: block;
+  text-align: center;
+}
+
 .persons-title {
   font-weight: 500;
   font-size: 16px;
@@ -288,6 +306,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  margin: 30px auto 10px auto;
+
 }
 
 .persons-item-text {
