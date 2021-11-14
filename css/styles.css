@@ -398,28 +398,54 @@ width: 1600px;
   border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
-  margin-bottom: 94px;
 }
 
 /*-----------Кнопки-навигация------*/
-.features-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.features-container {
+  width: 611px;
 }
 
-.features-item:not(:last-child) {
-  margin-right: 8px;
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.features-item{
+  margin-bottom: 34px;
+}
+
 
 /*--------Проекты-------*/
 
+.features-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+}
+
+.card-item {
+  margin-right: 30px;
+  
+}
+
+.card-item:nth-child(n3) {
+  margin-right: 0;
+}
 .card-text {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .card-item-text {
@@ -428,4 +454,5 @@ width: 1600px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin-bottom: 20px;
 }
