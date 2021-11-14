@@ -336,10 +336,6 @@ body {
   padding-bottom: 60px;
 }
 
-.footer-container {
-width: 1200px;
-}
-
 .footer-logo-web {
   font-family: Raleway;
   font-style: normal;
@@ -403,7 +399,6 @@ width: 1200px;
 /*---------------Портфолио-------*/
 /*---------------Шапка---------*/
 .header-container-portfolio {
-  width: 1200px;
   border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
