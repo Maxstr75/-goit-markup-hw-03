@@ -401,6 +401,7 @@ width: 1200px;
 /*---------------Портфолио-------*/
 /*---------------Шапка---------*/
 .header-container-portfolio {
+  width: 1200px;
   border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
