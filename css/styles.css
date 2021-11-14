@@ -429,9 +429,7 @@ width: 1200px;
 
 
 /*--------Проекты-------*/
-.features-card-container {
-  width: 1200px
-}
+
 .features-card-list {
   display: flex;
   flex-wrap: wrap;
