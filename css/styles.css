@@ -102,6 +102,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-logo-studio {
@@ -113,6 +115,8 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
   margin-right: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link {
@@ -157,6 +161,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* --------Что предлагаем------ */
