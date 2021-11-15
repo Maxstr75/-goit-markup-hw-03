@@ -122,6 +122,8 @@ body {
   line-height: 1.13;
   letter-spacing: 0.02em;
   color: var(--header-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link:hover,
