@@ -66,6 +66,8 @@ body {
 /*-----------------HEADER------------*/
 .page-header {
   background-color: #ffffff;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-list {
@@ -113,8 +115,6 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
   margin-right: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-link {
@@ -124,8 +124,6 @@ body {
   line-height: 1.13;
   letter-spacing: 0.02em;
   color: var(--header-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-link:hover,
@@ -144,8 +142,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-mail:hover,
@@ -159,8 +155,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 /* --------Что предлагаем------ */
