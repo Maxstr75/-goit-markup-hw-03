@@ -260,11 +260,6 @@ body {
   margin-right: 30px;
 }
 
-.about-work {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .work-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -279,11 +274,7 @@ body {
 .team {
   background-color: #f5f4fa;
   padding-top: 94px;
-  padding-bottom: 56px;
-}
-
-.team-container {
-  margin-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
