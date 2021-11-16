@@ -434,8 +434,6 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
-  margin-top: 20px;
-  margin-bottom: 4px;
 }
 
 .card-item-text {
@@ -444,7 +442,6 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  margin-bottom: 20px;
 }
 
 .card-text-item-text {
