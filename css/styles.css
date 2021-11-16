@@ -317,6 +317,11 @@ body {
   color: var(--main-text-color);
 }
 
+.persons-title-item-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 /*-------------Подвал--------*/
 .footer {
   background-color: #2f303a;
