@@ -66,8 +66,8 @@ body {
 /*-----------------HEADER------------*/
 .page-header {
   background-color: #ffffff;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header-list {
@@ -102,8 +102,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-logo-studio {
