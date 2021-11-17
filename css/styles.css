@@ -252,6 +252,10 @@ body {
 }
 
 /*--------------Чем мы занимаемся------*/
+.about-work {
+  padding-bottom: 94px;
+}
+
 .work-list {
   display: flex;
 }
@@ -289,11 +293,9 @@ body {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 94px;
 }
-
-.team-item {
+.team-item:not(:last-child) {
+  margin-right: 30px;
   display: block;
   text-align: center;
 }
@@ -305,7 +307,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  margin: 30px auto 10px auto;
+  margin-bottom: 10px;
 }
 
 .persons-item-text {
@@ -389,6 +391,8 @@ body {
 /*---------------Портфолио-------*/
 /*---------------Шапка---------*/
 .page-header-portfolio {
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 .header-container-portfolio {
