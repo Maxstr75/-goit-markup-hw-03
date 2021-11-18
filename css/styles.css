@@ -409,7 +409,7 @@ body {
 .features-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .features-item:not(:last-child) {
